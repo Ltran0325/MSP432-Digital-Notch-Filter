@@ -8,7 +8,11 @@ https://www.youtube.com/watch?v=BwOXYYQE5To
 
 **Matlab Code:**
 
-![image](https://user-images.githubusercontent.com/62213019/112414121-c45d2880-8cde-11eb-8d1d-973e3ad127f2.png)
+Hc = tf([1, 0, (2*pi*60)^2], [1,20, (2*pi*60)^2]);
+
+bode(Hc);
+
+Hd = c2d(Hc, 1/2000)
 
 **Matlab Bode Plot:**
 
