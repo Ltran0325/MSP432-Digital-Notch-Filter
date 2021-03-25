@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=BwOXYYQE5To
 
 **Matlab Code:**
 
-Hc = tf([1, 0, (2*pi*60)^2], [1,20, (2*pi*60)^2]);
+Hc = tf([1, 0, (2 * pi * 60)^2], [1,20, (2 * pi * 60)^2]);
 
 bode(Hc);
 
