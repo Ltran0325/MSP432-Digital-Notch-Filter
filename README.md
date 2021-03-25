@@ -2,6 +2,8 @@
 
 This program removes unwanted noise (60 Hz) using a digital notch filter. A sine wave enters the MSP432's precision ADC module and exits through an external DAC after being digitally filtered. Matlab is used to calculate the 60Hz notch filter transfer function which is then implemented in C.
 
+https://github.com/Ltran0325/MSP432-Digital-Notch-Filter/blob/main/main.c
+
 **Demo:**
 
 https://www.youtube.com/watch?v=BwOXYYQE5To
