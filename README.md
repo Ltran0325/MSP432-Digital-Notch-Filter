@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=BwOXYYQE5To
 <a href="https://www.codecogs.com/eqnedit.php?latex=H(s)&space;=&space;\frac{s^w&space;&plus;&space;w_n^2}{s^2&space;&plus;&space;(w_n/Q)s&space;&plus;w_n^2}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?H(s)&space;=&space;\frac{s^w&space;&plus;&space;w_n^2}{s^2&space;&plus;&space;(w_n/Q)s&space;&plus;w_n^2}" title="H(s) = \frac{s^w + w_n^2}{s^2 + (w_n/Q)s +w_n^2}" /></a>
 
 
-**Matlab Code:**
+**MATLAB Code:**
 
 Hc = tf([1,  0, (2 * pi * 60)^2], [1, 20, (2 * pi * 60)^2]);
 
@@ -21,7 +21,7 @@ bode(Hc);
 
 Hd = c2d(Hc, 1/2000)
 
-**Matlab Bode Plot:**
+**MATLAB Bode Plot:**
 
 60Hz notch filter.
 
