@@ -10,8 +10,7 @@ https://www.youtube.com/watch?v=BwOXYYQE5To
 
 **Notch Filter Transfer Function (s-domain):**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=H(s)&space;=&space;\frac{s^w&space;&plus;&space;w_n^2}{s^2&space;&plus;&space;(w_n/Q)s&space;&plus;w_n^2}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?H(s)&space;=&space;\frac{s^w&space;&plus;&space;w_n^2}{s^2&space;&plus;&space;(w_n/Q)s&space;&plus;w_n^2}" title="H(s) = \frac{s^w + w_n^2}{s^2 + (w_n/Q)s +w_n^2}" /></a>
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=H(s)&space;=&space;\frac{s^w&space;&plus;&space;w_n^2}{s^2&space;&plus;&space;(w_n/Q)s&space;&plus;w_n^2}&space;=&space;\frac{b_2z^2&space;&plus;b_1z^2&space;&plus;b_0}{z^2&space;&plus;a_1z&space;&plus;&space;a_0}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?H(s)&space;=&space;\frac{s^w&space;&plus;&space;w_n^2}{s^2&space;&plus;&space;(w_n/Q)s&space;&plus;w_n^2}&space;=&space;\frac{b_2z^2&space;&plus;b_1z^2&space;&plus;b_0}{z^2&space;&plus;a_1z&space;&plus;&space;a_0}" title="H(s) = \frac{s^w + w_n^2}{s^2 + (w_n/Q)s +w_n^2} = \frac{b_2z^2 +b_1z^2 +b_0}{z^2 +a_1z + a_0}" /></a>
 
 **MATLAB Code:**
 
