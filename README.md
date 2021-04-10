@@ -16,13 +16,13 @@ https://www.youtube.com/watch?v=BwOXYYQE5To
 
 
 **MATLAB Code:**
-
+```MATLAB
 Hc = tf([1,  0, (2 * pi * 60)^2], [1, 20, (2 * pi * 60)^2]);
 
 bode(Hc);
 
 Hd = c2d(Hc, 1/2000)
-
+```
 **MATLAB Bode Plot:**
 
 60Hz notch filter.
