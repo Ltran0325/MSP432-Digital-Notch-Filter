@@ -17,6 +17,15 @@ https://www.youtube.com/watch?v=BwOXYYQE5To
 
 **MATLAB Code:**
 ```MATLAB
+
+% H(s) = (s^2 + w^2)/(s^2 + (w/Q)s + w^2)
+
+% w = 60Hz = center frequency to reject
+
+% Q = 3 = quality factor (increase to narrow rejection)
+
+% w/Q = bandwidth of the rejection band
+
 Hc = tf([1,  0, (2 * pi * 60)^2], [1, 20, (2 * pi * 60)^2]);
 
 bode(Hc);
